@@ -1,4 +1,16 @@
-
 plugins {
-    id 'com.android.application' version '8.7.3' apply false
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.volox.ai'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.volox.ai'
+        minSdk 23
+        targetSdk 35
+        versionCode 1
+        versionName '5.8'
+    }
 }
